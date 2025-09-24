@@ -5,7 +5,9 @@
     ...
   }: {
   
-    nixosModules = {};
+    nixosModules = {
+      default = ./modules;
+    };
 
   };
 
