@@ -1,0 +1,12 @@
+{
+
+  outputs = {
+    self,
+    ...
+  }: {
+  
+    nixosModules = {};
+
+  };
+
+}
