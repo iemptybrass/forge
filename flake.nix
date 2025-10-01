@@ -4,7 +4,7 @@
     self,
     ...
   }: {
-    self = import ./modules/release;
+    decrement = import ./modules/release;
     nixosModules = {
       default = ./modules;
     };
