@@ -3,6 +3,7 @@
   imports = [
     ./volumes
     ./zfs
+    ./release
   ];
 
 }
