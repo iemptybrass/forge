@@ -7,7 +7,7 @@
   
     nixosModules = {
       default = ./modules;
-      lib = ./modules/release
+      lib = ./modules/release;
     };
 
   };
