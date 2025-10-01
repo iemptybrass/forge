@@ -4,7 +4,7 @@
     self,
     ...
   }: {
-        lib = ./modules/release;
+    lib = import ./modules/release;
     nixosModules = {
       default = ./modules;
     };
